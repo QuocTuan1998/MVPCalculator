@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    tools:context="com.example.admin.mvpcalculator.MainActivity">
+
+    <EditText
+        android:id="@+id/edA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edA"
+        android:layout_marginTop="8dp"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/edB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edB"
+        android:layout_marginTop="8dp"
+        android:inputType="number"
+        />
+    <Button
+        android:id="@+id/btnSum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCong"
+        />
+    <Button
+        android:id="@+id/btnSub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hbtnSub"
+        />
+    <Button
+        android:id="@+id/btnMul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnMulti"
+        />
+    <Button
+        android:id="@+id/btnDiv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnDiv"
+        />
+
+</LinearLayout>

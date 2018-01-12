@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MVPCalculator</string>
+    <string name="edA">Enter number a</string>
+    <string name="edB">Enter number B</string>
+    <string name="btnCong">Sum</string>
+    <string name="hbtnSub">Sub</string>
+    <string name="btnMulti">Multi</string>
+    <string name="btnDiv">Div</string>
+</resources>
